@@ -1,5 +1,7 @@
 import classes from './AvailableTeas.module.css';
 
+import Card from '../../UI/Card/Card';
+
 const DUMMY_TEAS = [
 	{
 		id: 't1',
@@ -15,7 +17,7 @@ const DUMMY_TEAS = [
 		type: 'Black tea',
 		description:
 			'Perhaps unsurprisingly, English Breakfast is the most popular tea in England. Much of this is a blend of Assam, Ceylon and Kenyan black tea',
-		price: 16.50,
+		price: 16.5,
 	},
 	{
 		id: 't3',
@@ -42,7 +44,9 @@ const AvailableTeas = () => {
 
 	return (
 		<section className={classes.teas}>
-			<ul>{teaList}</ul>
+			<Card>
+				<ul>{teaList}</ul>
+			</Card>
 		</section>
 	);
 };
