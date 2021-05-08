@@ -6,17 +6,19 @@ const TeaItem = props => {
 
 	return (
 		<li className={classes.tea}>
-			<div className={classes.title}>
-				<h3>{props.name}</h3>
-				<span className={classes.type}>{props.type}</span>
+			<div className={classes.container}>
+				<div className={classes.title}>
+					<h3>{props.name}</h3>
+					<span className={classes.type}>{props.type}</span>
+				</div>
+				<div>
+					<p className={classes.description}>{props.description}</p>
+					<span className={classes.price}>{price}</span>
+				</div>
 			</div>
 			<div>
-				<p className={classes.description}>{props.description}</p>
-				<span className={classes.price}>{price}</span>
+				<TeaItemForm id={props.id} />
 			</div>
-			<div>
-        <TeaItemForm/>
-      </div>
 		</li>
 	);
 };
