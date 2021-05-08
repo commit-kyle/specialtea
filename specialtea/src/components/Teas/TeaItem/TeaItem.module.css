@@ -1,0 +1,38 @@
+.tea {
+	display: flex;
+  flex-direction: column;
+  align-items: space-between;
+	margin: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.tea h3 {
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 3px;
+	margin: 0 1rem 0.25rem 0;
+}
+
+.type {
+	color: #95d85a;
+	background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+	padding: 0 0.5rem;
+}
+
+.description {
+  margin-top: 0.25rem;
+  font-weight: 300;
+}
+
+.price {
+	margin-top: 0.25rem;
+	font-weight: bold;
+	color: #9c6644;
+	font-size: 1.25rem;
+}
