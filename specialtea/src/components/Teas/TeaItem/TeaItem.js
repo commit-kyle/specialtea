@@ -1,4 +1,5 @@
 import classes from './TeaItem.module.css';
+import TeaItemForm from './TeaItemForm/TeaItemForm';
 
 const TeaItem = props => {
 	const price = `$${props.price.toFixed(2)}`;
@@ -13,7 +14,9 @@ const TeaItem = props => {
 				<p className={classes.description}>{props.description}</p>
 				<span className={classes.price}>{price}</span>
 			</div>
-			<div></div>
+			<div>
+        <TeaItemForm/>
+      </div>
 		</li>
 	);
 };
