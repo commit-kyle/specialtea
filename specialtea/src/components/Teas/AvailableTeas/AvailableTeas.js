@@ -1,6 +1,7 @@
 import classes from './AvailableTeas.module.css';
 
 import Card from '../../UI/Card/Card';
+import TeaItem from '../TeaItem/TeaItem';
 
 const DUMMY_TEAS = [
 	{
@@ -30,7 +31,7 @@ const DUMMY_TEAS = [
 	{
 		id: 't4',
 		name: 'Chai',
-		type: 'Black',
+		type: 'Black tea',
 		description:
 			'This milky, sugary, spiced beverage is drunk all day long in India. Loaded with spices like ginger, cinnamon, cardamom, and cloves; and sweetened with honey.',
 		price: 18.99,
@@ -39,7 +40,15 @@ const DUMMY_TEAS = [
 
 const AvailableTeas = () => {
 	const teaList = DUMMY_TEAS.map(tea => {
-		return <li>{tea.name}</li>;
+		return (
+			<TeaItem
+				key={tea.id}
+				name={tea.name}
+				type={tea.type}
+				description={tea.description}
+				price={tea.price}
+			/>
+		);
 	});
 
 	return (
