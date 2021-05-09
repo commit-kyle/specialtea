@@ -13,7 +13,7 @@ const Header = props => {
 		<Fragment>
 			<header className={classes.header}>
         <Logo/>
-				<CartButton />
+				<CartButton onShowCart={props.onShowCart} />
 			</header>
 			<div className={classes.image}>
 				<img src={hero} alt='A table with a teapot and a few tea cups placed on top of it' />
