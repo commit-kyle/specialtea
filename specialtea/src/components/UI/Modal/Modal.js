@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
-import ReactDOM from ' react-dom';
+import ReactDOM from 'react-dom';
 
 import Backdrop from './Backdrop/Backdrop';
 import Overlay from './Overlay/Overlay';
 
-const Modal = () => {
+const Modal = props => {
 	const portalElement = document.getElementById('overlay');
 
 	return (
