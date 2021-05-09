@@ -1,0 +1,21 @@
+import { Fragment } from 'react';
+import ReactDOM from ' react-dom';
+
+import Backdrop from './Backdrop/Backdrop';
+import Overlay from './Overlay/Overlay';
+
+const Modal = () => {
+	const portalElement = document.getElementById('overlay');
+
+	return (
+		<Fragment>
+			{ReactDOM.createPortal(<Backdrop />, portalElement)}
+			{ReactDOM.createPortal(
+				<Overlay>{props.children}</Overlay>,
+				portalElement
+			)}
+		</Fragment>
+	);
+};
+
+export default Modal;
