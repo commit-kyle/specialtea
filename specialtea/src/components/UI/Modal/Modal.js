@@ -9,7 +9,7 @@ const Modal = props => {
 
 	return (
 		<Fragment>
-			{ReactDOM.createPortal(<Backdrop />, portalElement)}
+			{ReactDOM.createPortal(<Backdrop onClick={props.onClick}/>, portalElement)}
 			{ReactDOM.createPortal(
 				<Overlay>{props.children}</Overlay>,
 				portalElement
