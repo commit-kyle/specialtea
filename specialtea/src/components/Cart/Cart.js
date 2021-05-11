@@ -21,7 +21,7 @@ const Cart = props => {
 	};
 
 	const cartItems = (
-		<ul>
+		<ul className={classes['cart-items']}>
 			{context.items.map(item => {
 				return (
 					<CartItem
