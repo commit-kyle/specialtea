@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/specialtea/static/css/main.4278c16a.chunk.css",
+    "main.js": "/specialtea/static/js/main.c2d08b25.chunk.js",
+    "main.js.map": "/specialtea/static/js/main.c2d08b25.chunk.js.map",
+    "runtime-main.js": "/specialtea/static/js/runtime-main.5505ec2b.js",
+    "runtime-main.js.map": "/specialtea/static/js/runtime-main.5505ec2b.js.map",
+    "static/js/2.65a23d4d.chunk.js": "/specialtea/static/js/2.65a23d4d.chunk.js",
+    "static/js/2.65a23d4d.chunk.js.map": "/specialtea/static/js/2.65a23d4d.chunk.js.map",
+    "index.html": "/specialtea/index.html",
+    "static/css/main.4278c16a.chunk.css.map": "/specialtea/static/css/main.4278c16a.chunk.css.map",
+    "static/js/2.65a23d4d.chunk.js.LICENSE.txt": "/specialtea/static/js/2.65a23d4d.chunk.js.LICENSE.txt",
+    "static/media/tea-setup.42aa7ed5.jpg": "/specialtea/static/media/tea-setup.42aa7ed5.jpg",
+    "static/media/teacup.2aabb884.png": "/specialtea/static/media/teacup.2aabb884.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5505ec2b.js",
+    "static/js/2.65a23d4d.chunk.js",
+    "static/css/main.4278c16a.chunk.css",
+    "static/js/main.c2d08b25.chunk.js"
+  ]
+}
